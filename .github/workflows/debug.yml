@@ -6,6 +6,11 @@ on:
         description: 'Upload to CI channel'
         required: false
         type: boolean
+      myCommit:
+        description: 'Commit SHA1'
+        required: true
+        default: 'undefined'
+        type: string
 
 jobs:
   job_armv8:
